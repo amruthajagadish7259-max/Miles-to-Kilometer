@@ -1,8 +1,8 @@
 import sys
-if len(sys.argv)>2:
+if sys.argv:
     miles=float(input("Enter distance in miles:"))
 else:
-    miles=3
+    miles=4
 
-result=3*1.607
+result=miles*1.607
 print("Miles to kilometer converted value is:",result)
